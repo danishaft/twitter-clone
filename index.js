@@ -25,7 +25,7 @@ const handleReplyClick = (param) => {
         targetTweetObj.replies.unshift({
             handle: `@Danishaft-Code 💎`,
             profilePic: `images/troll.jpg`,
-            tweetText: 'hhh',
+            tweetText: commentInput.value
         })
         render()
 }
