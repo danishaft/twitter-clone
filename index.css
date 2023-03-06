@@ -46,7 +46,7 @@ header{
 
 /* textareas + btn */
 
-textarea{
+.tweet-input-area textarea{
     border: none;
     resize: none;
     padding: 10px;
@@ -67,6 +67,9 @@ button{
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
+}
+.comment-cont #comment-btn{
+    background-color: red;
 }
 
 /* tweet */
@@ -115,6 +118,10 @@ button{
     font-size: 14px;
     line-height: 20px;
 }
+.comment-cont {
+    display: flex;
+    margin-top: 10px;
+}
 
 /* images */
 
@@ -127,4 +134,7 @@ button{
 /* utility */
 .hidden{
     display: none;
+}
+.block{
+    display: block;
 }
